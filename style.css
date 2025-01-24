@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  background-color: aqua;
+}
+
+div {
+  margin: 10px 10px;
+}
+
+div form {
+  margin: 20px;
+}
+
+div form input {
+  width: 120px;
+  border-radius: 5px;
+  padding: 15px 10px;
+  border-style: none;
+}
+
+div button {
+  border-radius: 5px;
+  padding: 10px 10px;
+  border-style: none;
+  margin-left: 20px;
+}
+
+div input {
+  width: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <form>
+            <input type="number" id="num1" placeholder="Masukan angka 1">
+        </form>
+        <form>
+            <input type="number" id="num2" placeholder="Masukan angka 2">
+        </form>
+        <button onclick="tambah()">Tambah</button>
+        <input id="hasil" placeholder="Hasil">
+    </div>
+</body>
+
+<script>
+    function tambah() {
+        var a, b, c;
+
+        a = Number(document.getElementById("num1").value);
+        b = Number(document.getElementById("num2").value);
+        c = a + b;
+        document.getElementById("hasil").value = c;
+    }
+</script>
+
+</html>
